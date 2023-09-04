@@ -6,18 +6,35 @@
 }
 
 .welcome-container {
+  height: 75vh;
+  width: 44%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 75vh;
+  border: 1px white solid;
+  border-radius: .5rem;
+  background-color: hsla(223, 49%, 21%, 0.45);
+}
+.welcome-text {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .35rem;
 }
 
 .demo-container {
+  height: 75vh;
+  width: 44%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 75vh;
+  border: 1px white solid;
+  border-radius: .5rem;
+  background-color: hsla(223, 49%, 21%, 0.45);
+}
+
+.left-side, .right-side {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

@@ -10,6 +10,11 @@ const Header = ()=> {
         <button className='nav-button'>About Me</button>
       </div>
       <h2 className='header-title'>Welcome to my Professional Portfolio!</h2>
+      <div className='header-toggle'>
+        <span className='toggle-text'>
+        [Dark/Light]
+        </span>
+      </div>
     </header>
   )
 }

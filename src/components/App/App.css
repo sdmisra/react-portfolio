@@ -1,5 +1,8 @@
 .App{
   background-color: #192a4ec5;
+  background-image: url('../../assets/Verdanthia.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,7 +13,10 @@
 }
 
 .center-content {
-  width: 95vw;
-  height: 75vh;
   display: flex;
+  justify-content: space-between;
+  height: 75vh;
+  width: 95vw;
+  padding: 1rem;
+  margin: .5rem;
 }

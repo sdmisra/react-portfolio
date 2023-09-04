@@ -1,31 +1,29 @@
 .header-container {
   height: 15vh;
   width: 100vw;
-  border-bottom: 1px white solid;
-  background-color: hsla(223, 49%, 36%, 0.89);
+  border-bottom: .05rem aliceblue solid;
+  background-color: hsla(223, 49%, 21%, 0.65);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
 
 .header-title {
+  margin-left: 7rem;
+  margin-right: 7rem;
   color: rgb(236, 197, 77);
   text-shadow: rgb(246, 218, 104) 1px 0 10px, 2px 1px 2px rgb(255, 255, 255);
   font-family: 'Whois', sans-serif;
-  font-size: 4rem;
-  margin-block-start: .25em;
-  margin-block-end: .75em;
+  font-size: 2rem;
 }
 
 .header-nav-buttons {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  left: 1rem;
-  top: .55rem;
-  height: 100%;
+  height: 90%;
   padding: .25rem;
 }
 
@@ -33,6 +31,20 @@
   height: 2rem;
   min-width: 6rem;
   max-width: 8rem;
-  border: .1rem rgba(128, 128, 128, 0.4) solid;
+  background-color: hsla(223, 49%, 34%, 0.65);
+  color: aliceblue;
+  border: .05rem rgb(236, 197, 77) solid;
+  border-radius: .25rem;
   margin: .15rem;
+}
+
+.header-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 6rem;
+}
+.toggle-text {
+  font-size: 1.5rem;
+  font-family: 'Whois', sans-serif;
 }
