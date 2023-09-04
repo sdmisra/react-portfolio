@@ -1,8 +1,16 @@
 import React from 'react'
+import '../Header/Header.css'
 
 const Header = ()=> {
   return (
-    <p>This is a header</p>
+    <header className='header-container'>
+      <div className='header-nav-buttons'>
+        <button className='nav-button'>Home</button>
+        <button className='nav-button'>Projects</button>
+        <button className='nav-button'>About Me</button>
+      </div>
+      <h2 className='header-title'>Welcome to my Professional Portfolio!</h2>
+    </header>
   )
 }
 export default Header;

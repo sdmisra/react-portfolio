@@ -9,12 +9,13 @@ import ProjectsPage from '../ProjectsPage/ProjectsPage';
 function App() {
   return (
     <div className="App">
-
       <Header />
+      <section className='center-content'>
       <Routes>
-      <Route path = '/' element ={<WelcomePage />}/>
-      <Route path = '/projects' element ={<ProjectsPage />} />
+        <Route path = '/' element ={<WelcomePage />}/>
+        <Route path = '/projects' element ={<ProjectsPage />} />
       </Routes>
+      </section>
       <Footer />
     </div>
   );

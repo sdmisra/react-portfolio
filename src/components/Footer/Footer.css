@@ -1,0 +1,22 @@
+.footer-container {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.701);
+  border-top: 1px white solid;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rebeccapurple;
+}
