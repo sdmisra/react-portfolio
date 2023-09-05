@@ -14,7 +14,7 @@
   align-items: center;
   border: 1px white solid;
   border-radius: .5rem;
-  background-color: hsla(223, 49%, 21%, 0.45);
+  background-color: hsla(223, 41%, 74%, 0.45);
 }
 .welcome-text {
   width: 90%;
@@ -32,7 +32,7 @@
   align-items: center;
   border: 1px white solid;
   border-radius: .5rem;
-  background-color: hsla(223, 49%, 21%, 0.45);
+  background-color: hsla(223, 41%, 74%, 0.45);
 }
 
 .left-side, .right-side {
