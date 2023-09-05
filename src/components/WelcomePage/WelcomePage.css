@@ -2,17 +2,15 @@
   max-width: 75vw;
   max-height: 35vh;
   border-radius: 2rem;
-  border: 1px solid aliceblue;
 }
 
 .welcome-container {
-  height: 75vh;
+  height: 90%;
   width: 44%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px white solid;
   border-radius: .5rem;
   background-color: hsla(223, 41%, 74%, 0.45);
 }
@@ -25,12 +23,11 @@
 }
 
 .demo-container {
-  height: 75vh;
+  height: 90%;
   width: 44%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px white solid;
   border-radius: .5rem;
   background-color: hsla(223, 41%, 74%, 0.45);
 }

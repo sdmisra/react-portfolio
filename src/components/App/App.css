@@ -9,14 +9,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
-  color: white;
+  color: aliceblue;
 }
 
 .center-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 75vh;
+  height: 72vh;
   width: 95vw;
   padding: 1rem;
   margin: .5rem;
