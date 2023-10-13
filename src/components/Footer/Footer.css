@@ -1,7 +1,7 @@
 .footer-container {
   height: 10vh;
   width: 100vw;
-  background-color: hsla(223, 49%, 21%, 0.45);
+  background-color: hsla(223, 41%, 74%, 0.75);
   border-bottom: .1rem aliceblue solid;
   border-top: .1rem aliceblue solid;
   display:flex;
