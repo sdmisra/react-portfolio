@@ -1,0 +1,16 @@
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .15rem aliceblue dotted;
+  height: 90%;
+  width: 65%;
+}
+
+.timeline {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 30%;
+}

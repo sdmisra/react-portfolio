@@ -1,7 +1,8 @@
 .header-container {
-  height: 15vh;
+  height: 12vh;
   width: 100vw;
-  border-bottom: .05rem aliceblue solid;
+  border-bottom: .1rem aliceblue solid;
+  border-top: .1rem aliceblue solid;
   background-color: hsla(223, 49%, 21%, 0.65);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
@@ -14,10 +15,10 @@
 .header-title {
   margin-left: 7rem;
   margin-right: 7rem;
-  color: rgb(236, 197, 77);
+  color: rgb(230, 185, 51);
   text-shadow: rgb(246, 218, 104) 1px 0 10px, 2px 1px 2px rgb(255, 255, 255);
   font-family: 'Whois', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .header-nav-buttons {
@@ -33,7 +34,7 @@
   max-width: 8rem;
   background-color: hsla(223, 49%, 34%, 0.65);
   color: aliceblue;
-  border: .05rem rgb(236, 197, 77) solid;
+  border: .05rem rgb(227, 182, 47) solid;
   border-radius: .25rem;
   margin: .15rem;
 }
@@ -47,4 +48,9 @@
 .toggle-text {
   font-size: 1.5rem;
   font-family: 'Whois', sans-serif;
+}
+
+.link {
+  color: aliceblue;
+  text-decoration: none;
 }

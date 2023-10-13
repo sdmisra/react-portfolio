@@ -1,8 +1,9 @@
 .footer-container {
   height: 10vh;
   width: 100vw;
-  background-color: rgba(128, 128, 128, 0.701);
-  border-top: 1px white solid;
+  background-color: hsla(223, 41%, 74%, 0.75);
+  border-bottom: .1rem aliceblue solid;
+  border-top: .1rem aliceblue solid;
   display:flex;
   flex-direction: column;
   justify-content: center;
