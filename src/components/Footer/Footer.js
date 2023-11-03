@@ -15,7 +15,7 @@ const Footer = () => {
           Mars Chronicles
         </a>
       </div>
-      <h3>Project Links (Deployed via Vercel)</h3>
+      <h3>Live project links</h3>
     </footer>
   )
 }
