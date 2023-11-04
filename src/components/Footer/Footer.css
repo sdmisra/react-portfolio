@@ -1,8 +1,7 @@
 .footer-container {
   height: 10vh;
   width: 100vw;
-  background-color: hsla(223, 41%, 74%, 0.75);
-  border-bottom: .1rem aliceblue solid;
+  background-color: rgba(163, 178, 217, 0.25);
   border-top: .1rem aliceblue solid;
   display:flex;
   flex-direction: column;
@@ -11,13 +10,21 @@
 }
 
 .footer-nav-buttons {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
   width: 50%;
 }
 
 .footer-link {
+  background-color: hwb(223 64% 15% / 0.70);
   text-decoration: none;
+  border: 1px black solid;
+  border-radius: .25rem;
+  padding: .25rem;
   color: rebeccapurple;
+}
+
+.footer-text {
+  margin-top: .15rem;
+  margin-bottom: .75rem;
 }

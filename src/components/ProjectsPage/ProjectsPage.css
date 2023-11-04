@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding: 1rem;
   margin: .5rem;
   height: 95%;
@@ -22,5 +23,16 @@
 
 .preview-image {
   display:flex;
+  object-fit: contain;
+  height: 65%;
+  width: 80%;
   overflow: hidden;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  border: 1 px black solid;
+  height: 50%;
+  width: 80%;
 }

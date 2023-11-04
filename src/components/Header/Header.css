@@ -2,9 +2,7 @@
   height: 12vh;
   width: 100vw;
   border-bottom: .1rem aliceblue solid;
-  border-top: .1rem aliceblue solid;
-  background-color: hsla(223, 49%, 21%, 0.65);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: hwb(222 64% 15% / 0.15);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -18,7 +16,7 @@
   color: rgb(230, 185, 51);
   text-shadow: rgb(246, 218, 104) 1px 0 10px, 2px 1px 2px rgb(255, 255, 255);
   font-family: 'Whois', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .header-nav-buttons {
