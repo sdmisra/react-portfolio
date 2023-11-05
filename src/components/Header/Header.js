@@ -1,31 +1,34 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import '../Header/Header.css'
-
+import { useLocation } from 'react-router-dom'
 const Header = ()=> {
+  let location = useLocation();
+  console.log(location);
   return (
     <header className='header-container'>
       <div className='header-nav-buttons'>
         <button className='nav-button'>
-          <Link to='/' className='link'>
+          <NavLink to='/' className='link'>
             Home
-          </Link>
+          </NavLink>
         </button>
         <button className='nav-button'>
-          <Link to='/projects' className='link'>
+          <NavLink to='/projects' className='link'>
             Projects
-          </Link>
+          </NavLink>
         </button>
         <button className='nav-button'>
-          <Link to='/aboutme' className='link'>
+          <NavLink to='/aboutme' className='link'>
             About Me
-          </Link>
+          </NavLink>
         </button>
       </div>
-      <h2 className='header-title'>Welcome to my Professional Portfolio!</h2>
+      {location.pathname === '/' &&<h2 className='header-title'>Welcome to my Portfolio!</h2>}
+      {location.pathname === '/aboutme' &&<h2 className='header-title'>      Thank you for checking out my site:</h2>}
       <div className='header-toggle'>
         <span className='toggle-text'>
-        [Dark/Light]
+        🤩
         </span>
       </div>
     </header>

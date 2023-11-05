@@ -1,7 +1,9 @@
 .author-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 1rem;
   border: .15rem aliceblue dotted;
   height: 90%;
   width: 65%;
@@ -13,4 +15,12 @@
   justify-content: center;
   height: 90%;
   width: 30%;
+}
+
+.about-paragraph {
+  text-indent: 2.5rem;
+}
+.diatribe-wrapper {
+  height: 95%;
+  width: 80%;
 }

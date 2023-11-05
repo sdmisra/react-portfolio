@@ -10,6 +10,7 @@
   border-radius: .5rem;
   max-height: 27%;
   width: 90%;
+
 }
 .card-left {
   width: 60%;
@@ -20,4 +21,21 @@
 }
 .tech-text {
   font-size: 1rem;
+}
+
+.project-card:hover {
+  cursor: pointer;
+  animation: 2s hoverClearly linear;
+}
+
+
+@keyframes hoverClearly {
+  0% {
+    scale: 1.0;
+    background-color: hsla(223, 49%, 21%, 0.65);
+  }
+  100% {
+    scale: 1.1;
+    background-color: hsla(223, 49%, 21%, 0.85);
+  }
 }

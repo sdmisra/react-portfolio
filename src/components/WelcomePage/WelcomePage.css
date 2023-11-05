@@ -5,14 +5,15 @@
 }
 
 .welcome-container {
-  height: 90%;
-  width: 44%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 90%;
+  width: 44%;
   border-radius: .5rem;
-  background-color: hsla(223, 41%, 74%, 0.45);
+  border: .05rem white solid;
+  background-color: hsla(223, 41%, 74%, 0.55);
 }
 .welcome-text {
   width: 90%;
@@ -29,9 +30,13 @@
   justify-content: center;
   align-items: center;
   border-radius: .5rem;
-  background-color: hsla(223, 41%, 74%, 0.45);
+  border: .05rem white solid;
+  background-color: hsla(223, 41%, 74%, 0.55);
 }
 
-.left-side, .right-side {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.succinct-prompt {
+  display:flex;
+  padding: 1rem;
+  margin: .5rem;
+  justify-content: center;
 }
