@@ -24,7 +24,8 @@ const Header = ()=> {
           </NavLink>
         </button>
       </div>
-      {location.pathname === '/' &&<h2 className='header-title'>Welcome to my Professional Portfolio!</h2>}
+      {location.pathname === '/' &&<h2 className='header-title'>Welcome to my Portfolio!</h2>}
+      {location.pathname === '/aboutme' &&<h2 className='header-title'>      Thank you for checking out my site:</h2>}
       <div className='header-toggle'>
         <span className='toggle-text'>
         🤩
