@@ -1,13 +1,20 @@
 import React from 'react'
+import 'devicon'
+import '../ProjectDetails/ProjectDetails.css'
 
 const ProjectDetails = ({project}) => {
-  console.log(project);
   const {tech, abstract} = project
-  console.log(abstract)
+
+  const projectStack = tech.map((item, index)=><i className={`devicon-${item}-plain icon`} key={index}></i>)
+
   return (
       <div className='project-details'>
         <h3 className='project-heading'>Abstract:</h3>
         <p className='project-abstract'>{abstract}</p>
+        <h3 className='project-heading'>Tech Stack Used:</h3>
+        <span className='tech-stack'>
+          {projectStack}
+        </span>
       </div>
   )
 }

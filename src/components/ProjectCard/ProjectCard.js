@@ -2,7 +2,7 @@ import React from 'react'
 import '../ProjectCard/ProjectCard.css'
 
 export const ProjectCard = (props) => {
-  const { title, size, mod, tech } = props.project
+  const { title, size, mod } = props.project
   const selectCard = props.select
 
   
@@ -14,7 +14,6 @@ export const ProjectCard = (props) => {
       <h4 className='card-text'>Turing Module: {mod}</h4>
       </div>
       <div className='card-right'>
-      <span>{tech.map((item, index)=> <p className='tech-text' key={index}>{item}</p>)}</span>
       </div>
     </section>
   )
