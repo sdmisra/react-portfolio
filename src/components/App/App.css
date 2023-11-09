@@ -15,7 +15,7 @@
 .center-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 72vh;
   width: 95vw;
   padding: 1rem;
