@@ -1,8 +1,8 @@
 .footer-container {
   height: 10vh;
   width: 100vw;
-  background-color: rgba(163, 178, 217, 0.25);
-  border-top: .1rem aliceblue solid;
+  background-color: rgb(58,62,65, .55);
+  border-top: .1rem rgba(217, 217, 217, 0.75) solid;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -16,15 +16,20 @@
 }
 
 .footer-link {
-  background-color: hwb(223 64% 15% / 0.70);
+  background-color: rgb(130,146,142, .45);
   text-decoration: none;
-  border: 1px black solid;
+  border: .05rem rgb(58,68,70) solid;
   border-radius: .25rem;
-  padding: .25rem;
-  color: rebeccapurple;
+  padding: .45rem;
+  color: rgba(217, 217, 217, 0.95);
+}
+
+.footer-link:hover {
+  background-color: rgb(130,146,142, .85);
 }
 
 .footer-text {
   margin-top: .15rem;
   margin-bottom: .75rem;
+  color: rgba(217, 217, 217, 0.95);
 }
