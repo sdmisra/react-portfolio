@@ -1,6 +1,6 @@
 .App{
   background-color: #0a1023f1;
-  /* background-image: url('../../assets/pastern.webp'); */
+  background-image: url('../../assets/treeline.webp');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
-  color: aliceblue;
+  color: rgba(217, 217, 217, 0.95);
 }
 
 .center-content {

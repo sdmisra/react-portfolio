@@ -1,10 +1,12 @@
 .author-info {
+  background-color: rgb(58,62,65, .75);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 1rem;
-  border: .15rem aliceblue dotted;
+  border: .15rem rgb(217, 217, 217, 0.75) solid;
+  border-radius: .5rem;
   height: 90%;
   width: 65%;
 }
@@ -12,6 +14,9 @@
 .timeline {
   display:flex;
   align-items: center;
+  background-color: rgb(58,62,65, .85);
+  border: .15rem rgb(217, 217, 217, 0.75) solid;
+  border-radius: .5rem;
   justify-content: center;
   height: 90%;
   width: 30%;
